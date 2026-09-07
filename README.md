@@ -63,7 +63,7 @@ This is the primary and recommended way to build and run.
 * Core Layer - poky/meta
 * Target Architecture - qemuarm64
 
-## Adding to an existing Yocto Environment and building the image
+## Manual Setup (without Docker)
 
 Once you have the poky environemnt configured, follow the below steps:
 

@@ -56,7 +56,7 @@ echo "=========================================="
 echo "    Booting Target in QEMU ARM64 "
 echo "=========================================="
 
-expect -c `
+expect -c '
 set timeout 300
 spawn runqemu qemuarm64 nographic slirp
 
@@ -68,4 +68,4 @@ send "helloword\r"
 
 expect "# "
 send "poweroff\r"
-
+'

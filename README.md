@@ -96,7 +96,7 @@ Once the core image has been built with helloworld package,
 
 
 
-2. Login as ==root== (no password).
+2. Login as `root` (no password).
 
 3. Execute the binary
 

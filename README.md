@@ -18,6 +18,7 @@ meta-custom/
 │       │   └── helloworld.c            # C source code
 │       └── helloworld_1.0.bb           # BitBake build recipe
 └── README.md
+```
 
 ## Layer Dependencies
 

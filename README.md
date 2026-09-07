@@ -31,25 +31,21 @@ Once you have the poky environemnt configured, follow the below steps:
 
 1. Clone this layer into your poky directory.
 
-```
-cd /path(to/poky
-git clone https://github.com/abishekbalu/meta-helloworld.git
+        cd /path(to/poky
+        git clone https://github.com/abishekbalu/meta-helloworld.git
 
-```
 
 2. Register the layer with bitbake.
 
-```
-source oe-init-build-env
-bitbake-layers add-layer ../meta-helloworld
+        source oe-init-build-env
+        bitbake-layers add-layer ../meta-helloworld
 
-```
+
 
 3. Build the complete image
-```
-bitbake core-image-minimal
 
-```
+        bitbake core-image-minimal
+
 
 ## Testing in QEMU
 
@@ -57,19 +53,18 @@ Once the core image has been built with helloworld package,
 
 1. Launch QEMU (using slirp user-mode networking to bypass /dev/net/tun permissions)
 
-```
-runqemu qemuarm64 nographic slirp
 
-```
+        runqemu qemuarm64 nographic slirp
+
+
 
 2. Login as ==root== (no password).
 
 3. Execute the binary
 
-```
-helloworld
 
-```
+        helloworld
+
 
 The output of the executed binary will be as:
 

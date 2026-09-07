@@ -1,0 +1,9 @@
+services:
+  yocto-complete-pipeline:
+    build: .
+    container_name: yocto-helloworld-complete-build
+    user: developer
+    environment:
+      - HOME=/home/developer
+    tty: true
+    stdin_open: true

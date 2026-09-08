@@ -64,7 +64,7 @@ expect "qemuarm64 login:"
 send "root\r"
 
 expect "# "
-send "helloword\r"
+send "helloworld\r"
 
 expect "# "
 send "poweroff\r"
